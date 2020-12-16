@@ -1,6 +1,6 @@
 module.exports =  {
     commands: ['birthday', 'bday'],
-    minArgs: 1,
+    minArgs: 3,
     maxArgs: 1,
     expectedArgs: '<wishing>',  
 
