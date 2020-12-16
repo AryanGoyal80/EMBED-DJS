@@ -16,6 +16,6 @@ module.exports = {
         }
         )
     },
-    permissions: ['ADMINISTRATOR', 'MANAGE_MESSAGES'],
-    requiredRoles: [778137565919445017]
+    permissions: ['MANAGE_MESSAGES'],
+    requiredRoles: [`<@mods>`]
 }
