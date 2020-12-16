@@ -9,6 +9,6 @@ const tag = `<@${member.id}>`
 
 const discussionchannel = message.client.channels.cache.get('788131164941582338');
 
-await discussionchannel.send(`${arguments[1]} your response has been submitted 🥳🥳. Thank you ${tag} for approving. :smile: `)
+await discussionchannel.send(`${arguments[0]} your response has been submitted 🥳🥳. Thank you ${tag} for approving. :smile: `)
 }
 }
