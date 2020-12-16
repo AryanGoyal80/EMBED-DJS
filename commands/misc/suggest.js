@@ -20,6 +20,8 @@ module.exports = {
       reactsuggest.react('👎')
       
       await pollchannel.send(suggestembed);     
+
+      message.delete()
     
     }
 
