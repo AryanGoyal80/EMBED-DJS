@@ -29,7 +29,7 @@ module.exports =  {
           .setFooter(`Wishing sent by:  ${message.author.username} `)
           .addFields(
               { name: '\u200B', value: 'Message:' },
-              { name: ` ${text} `, value: '\u200B' },       
+              { name:  `**Here is your wishing message**\n${text}` , value: '\u200B' },       
                     )
            
               await Wishingschannel.send(BdayEmbed); 
