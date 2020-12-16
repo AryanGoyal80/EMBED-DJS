@@ -5,6 +5,7 @@ const Discord = require('discord.js')
 const client = new Discord.Client()
 
 const config = require('./config.json')
+const poll = require('./poll')
 const { O_DIRECTORY } = require('constants')
 
 
@@ -29,7 +30,8 @@ client.on('ready', () => {
 
     readCommands('commands')
 
-  
+    poll(client)
+    
     })
 
     client.login(process.env.DJS_TOKEN)
