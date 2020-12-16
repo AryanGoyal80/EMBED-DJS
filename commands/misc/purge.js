@@ -2,7 +2,7 @@ module.exports = {
     commands: ['clear', 'purge'],
     minArgs: 1,
     maxArgs: 1,
-    permissions: 'BAN_MEMBERS',
+    permissions: 'MANAGE_MESSAGES',
     callback: async (message, arguments, text) => {
         ///CL 2 -> 2 Cl Five -> crash
         const amount = parseInt(arguments[0])
