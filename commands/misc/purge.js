@@ -17,5 +17,5 @@ module.exports = {
         )
     },
     permissions: ['MANAGE_MESSAGES'],
-    requiredRoles: [`<@778137565919445017>`]
+    requiredRoles: []
 }
