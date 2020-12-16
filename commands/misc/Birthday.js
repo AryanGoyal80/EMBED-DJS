@@ -1,7 +1,6 @@
 module.exports =  {
     commands: ['birthday', 'bday'],
-    minArgs: 3,
-    maxArgs: 1,
+    minArgs: 1, 
     expectedArgs: '<wishing>',  
 
     callback: async (message, arguments, text) => {
