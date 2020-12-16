@@ -15,7 +15,7 @@ module.exports = {
           { name: `Suggestion:`, value: `${text}` })
       
       //send embed and react to it with up/down
-      let reactsuggest = await suggestchannel.send(suggestembed);
+      let reactsuggest = await pollchannel.send(suggestembed);
       reactsuggest.react('👍')
       reactsuggest.react('👎')
       
