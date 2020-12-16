@@ -15,5 +15,7 @@ module.exports = {
             message.channel.bulkDelete(messages)
         }
         )
-    }
+    },
+    permissions: ['ADMINISTRATOR', 'MANAGE_MESSAGES'],
+    requiredRoles: []
 }
