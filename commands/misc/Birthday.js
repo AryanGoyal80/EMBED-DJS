@@ -11,12 +11,7 @@ module.exports =  {
         const Wishingschannel = message.client.channels.cache.get('787417148191670303');
 
 
-       
-
- const GuildID = "766514180672323625"
-
  const mention = message.author
- const UserID = mention.id
 
 
 
@@ -29,7 +24,7 @@ module.exports =  {
           .setFooter(`Wishing sent by:  ${message.author.username} `)
           .addFields(
               { name: '\u200B', value: 'Message:' },
-              { name:  `**Here is your wishing message**\n${text}` , value: '\u200B' },       
+              { name:  `**Here is your wishing message**\n${text}` , value: `${text}` },       
                     )
            
               await Wishingschannel.send(BdayEmbed); 
