@@ -1,6 +1,6 @@
 module.exports =  {
     commands: ['birthday', 'bday'],
-    minArgs: 1, 
+    minArgs: 1,
     expectedArgs: '<wishing>',  
 
     callback: async (message, arguments, text) => {
@@ -23,7 +23,7 @@ module.exports =  {
           .setFooter(`Wishing sent by:  ${message.author.username} `)
           .addFields(
               { name: '\u200B', value: 'Message:' },
-              { name:  `**Here is your wishing message**\n${text}` , value: `${text}` },       
+              { name:  `**Here is your wishing message**\n${text}` , value: '\u200B' },       
                     )
            
               await Wishingschannel.send(BdayEmbed); 
