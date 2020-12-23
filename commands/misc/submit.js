@@ -1,7 +1,7 @@
 module.exports = {
     commands: ['submit', 's'],
     minArgs: 1,
-    permissions: 'MANAGE_MESSAGES',
+    permissions: ['MANAGE_MESSAGES', 'MANAGE_ROLES'] , 
     callback: async (message, arguments, text) => {
     
 const { member, mentions } = message

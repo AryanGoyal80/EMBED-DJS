@@ -7,7 +7,7 @@ module.exports =  {
 
         const Discord = require('discord.js');
 
-        const Wishingschannel = message.client.channels.cache.get('787417148191670303');
+        const Wishingschannel = message.client.channels.cache.get('791259460332027904');
 
 
  const mention = message.author
