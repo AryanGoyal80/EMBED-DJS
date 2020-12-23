@@ -9,7 +9,7 @@ const tag = `<@${member.id}>`
 var person = message.guild.member(message.mentions.users.first());
 const temprole = message.guild.roles.cache.find(role => role.name === "temp")
 
-const discussionchannel = message.client.channels.cache.get('788131164941582338');
+const discussionchannel = message.client.channels.cache.get('791261222116130866');
 
 await discussionchannel.send(`${arguments[0]} your response has been submitted 🥳🥳. Thank you ${tag} for approving. :smile: `)
        person.roles.remove(temprole.id)
