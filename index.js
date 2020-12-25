@@ -30,6 +30,15 @@ client.on('ready', () => {
     readCommands('commands')
 
 
+    client.user.setPresence({
+      game: { 
+          name: 'Improving',
+          type: 'WATCHING'
+      },
+      status: 'Online'
+  })
+
+
     })
 
     client.login(process.env.DJS_TOKEN)
