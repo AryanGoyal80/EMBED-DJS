@@ -1,5 +1,5 @@
 module.exports =  {
-    commands: ['birthday', 'bday'],
+    commands: ['b'],
     minArgs: 1,
     expectedArgs: '<wishing>',  
 
@@ -7,7 +7,7 @@ module.exports =  {
 
         const Discord = require('discord.js');
 
-        const Wishingschannel = message.client.channels.cache.get('791905441105707018');
+        const Wishingschannel = message.client.channels.cache.get(`${arguments[0]}`);
 
 
  const mention = message.author
