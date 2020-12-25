@@ -26,7 +26,7 @@ module.exports =  {
               { name:  `**Here is your wishing message** ` , value: `${text}` },       
                     )
            
-              await Wishingschannel.send(BdayEmbed); 
+              await `<${arguments[0]}>`.send(BdayEmbed); 
 
               const person = message.author 
                  person.send("Your birthday message has been send!")
