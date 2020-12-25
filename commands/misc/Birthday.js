@@ -10,11 +10,6 @@ module.exports =  {
         const Wishingschannel = message.client.channels.cache.get('791905441105707018');
 
 
- const mention = message.author
-
-
-
-
   
       //create an embed with the arguments provided
      let BdayEmbed = new Discord.MessageEmbed()
