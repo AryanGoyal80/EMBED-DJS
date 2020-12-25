@@ -12,8 +12,7 @@ module.exports =  {
 
  const mention = message.guild.channels.find(channel => channel.name === "channel-name");
 
-if (mention === "channel-name") { Wishingschannel 
-    }
+
 
 
   
@@ -26,9 +25,11 @@ if (mention === "channel-name") { Wishingschannel
               { name: '\u200B', value: 'Message:' },
               { name:  `**Here is your wishing message** ` , value: `${text}` },       
                     )
-           
-              await Wishingschannel.send(BdayEmbed); 
+         
+                    if (mention === Wishingschannel) {
 
+              await Wishingschannel.send(BdayEmbed); 
+                    }
               const person = message.author 
                  person.send("Your birthday message has been send!")
           
