@@ -7,12 +7,13 @@ module.exports =  {
 
         const Discord = require('discord.js');
 
-        const Wishingschannel = message.guild.channels.find(channel => channel.name === "channel-name");
+        const Wishingschannel = message.client.channels.cache.get(`${arguments[0]}`);
 
 
- const mention = message.author
+ const mention = message.guild.channels.find(channel => channel.name === "channel-name");
 
-
+if (mention === "channel-name") { Wishingschannel 
+    }
 
 
   
