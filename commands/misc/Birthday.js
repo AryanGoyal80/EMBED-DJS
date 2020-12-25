@@ -7,7 +7,7 @@ module.exports =  {
 
         const Discord = require('discord.js');
 
-        const Wishingschannel = message.client.channels.cache.get(`\${arguments[0]}`);
+        const Wishingschannel = message.client.channels.cache.get(`${arguments[0]}`);
 
 
  const mention = message.author
