@@ -7,7 +7,7 @@ module.exports =  {
 
         const Discord = require('discord.js');
 
-        const Wishingschannel = message.client.channels.cache.get(`<${arguments[0]}>`);
+        const Wishingschannel = message.client.channels.cache.get(`<#${arguments[0]}>`);
 
 
  const mention = message.author
@@ -26,7 +26,7 @@ module.exports =  {
               { name:  `**Here is your wishing message** ` , value: `${text}` },       
                     )
            
-              await `<${arguments[0]}>`.send(BdayEmbed); 
+              await Wishingschannel.send(BdayEmbed); 
 
               const person = message.author 
                  person.send("Your birthday message has been send!")
