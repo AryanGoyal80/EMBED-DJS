@@ -10,7 +10,7 @@ module.exports =  {
         const Wishingschannel = message.client.channels.cache.get(`${arguments[0]}`);
 
 
- const mention = message.guild.channels.find(channel => channel.name === "channel-name");
+ const mention = message.guild.channels.cache.find(channel => channel.name === "channel-name");
 
 
 
