@@ -23,6 +23,8 @@ module.exports =  {
            
               await Wishingschannel.send(BdayEmbed); 
 
+              message.delete()
+
               const person = message.author 
                  person.send("Your birthday message has been send!")
           
