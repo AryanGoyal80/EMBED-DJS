@@ -6,6 +6,8 @@ module.exports = {
     minArgs: 0,
     permissions: 'ADMINISTRATOR',
     callback: async (message, arguments, text) => {
+
+        const private = require('../../private-message')
         
         let BdayEmbed = new Discord.MessageEmbed()
           .setColor('#ca208b')
@@ -20,9 +22,13 @@ module.exports = {
               I wish you a very happy birthday, to make it through one more year as gracefully as you can :sparkles:
               - Mama Aya` },
               )
+               
+              private(client, 'ping', 'Pong!'),
+
               client.users.fetch('763285109280604180').then(user => {
-                user.send(BdayEmbed)
-              } )
+                 user.send(BdayEmbed)
+               } )
+             
             },
             permissions: ['ADMINISTRATOR'],
             requiredRoles: []

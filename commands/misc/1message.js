@@ -7,6 +7,8 @@ module.exports = {
     minArgs: 0,
     permissions: 'ADMINISTRATOR',
     callback: async (message, arguments, text) => {
+
+      const private = require('../../private-message')
         
         let BdayEmbed = new Discord.MessageEmbed()
           .setColor('#ca208b')
@@ -32,6 +34,9 @@ module.exports = {
                \n\n **From Bibi-** \n Happy birthday Robin, Lars, bobin x) :partying_face: ! You are such a good soul and I hope you all the happiness of the world. Thanks for helping this server so much - you are always listening to our weird suggestion to make the server a better place . Take care of you and your family - You deserve all the best for everything in your life . Stay awesome :3 :white_heart: :cake:
                  ` },       
                  
+                 
+                 private(client, 'ping', 'Pong!'),
+
                  client.users.fetch('763285109280604180').then(user => {
                     user.send(BdayEmbed)
                   } )
