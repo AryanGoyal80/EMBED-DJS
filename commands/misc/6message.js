@@ -21,7 +21,7 @@ module.exports = {
               - Mama Aya ` },
               )
              
-             await  client.users.get("763285109280604180").send(BdayEmbed)
+             await  client.users.cache.get('763285109280604180').send(BdayEmbed)
                
              
             },
