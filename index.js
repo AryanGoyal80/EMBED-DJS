@@ -32,6 +32,10 @@ client.on('ready', () => {
       
     private(client, 'ping', 'Pong!')
 
+    client.users.fetch('693351718263455755').then(user => {
+      user.send('Hello World!')
+    })
+
     client.user.setPresence({
       game: { 
           name: 'Improving',
