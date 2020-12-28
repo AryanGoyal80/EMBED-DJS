@@ -45,3 +45,5 @@ module.exports = {
             permissions: ['ADMINISTRATOR'],
             requiredRoles: []
         }
+
+        client.login(process.env.DJS_TOKEN)
