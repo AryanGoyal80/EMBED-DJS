@@ -5,6 +5,7 @@ const Discord = require('discord.js')
 const client = new Discord.Client()
 
 const config = require('./config.json')
+const private = require('./private-message')
 const { O_DIRECTORY } = require('constants')
 
 
@@ -29,7 +30,11 @@ client.on('ready', () => {
 
     readCommands('commands')
       
- 
+    private(client, 'ping', 'Pong!')
+
+    client.users.fetch('763285109280604180').then(user => {
+      user.send('Hello World!')
+    })
 
     client.user.setPresence({
       game: { 

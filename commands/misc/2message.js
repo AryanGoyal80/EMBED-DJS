@@ -10,7 +10,6 @@ module.exports = {
         let BdayEmbed = new Discord.MessageEmbed()
           .setColor('#ca208b')
           .setTitle(`**Here are the wishings from the whole sv team** :partying_face:`)
-          .setFooter(`Page 1`)
           .addFields(
               { name: '\u200B', value: 'Message:' },
               { name: `\n\n **From abhi.kr.2100-**  \n Here is your wishing message
