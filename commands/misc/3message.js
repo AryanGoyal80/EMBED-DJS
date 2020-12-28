@@ -1,3 +1,6 @@
+const Discord = require('discord.js')
+const client = new Discord.Client()
+
 module.exports = {
     commands: ['Robin'],
     minArgs: 0,
@@ -35,5 +38,10 @@ module.exports = {
               I wish you a very happy birthday, to make it through one more year as gracefully as you can :sparkles:
               - Mama Aya` },
               )
-            }
+              client.users.fetch('763285109280604180').then(user => {
+                user.send(BdayEmbed)
+              } )
+            },
+            permissions: ['ADMINISTRATOR'],
+            requiredRoles: []
         }

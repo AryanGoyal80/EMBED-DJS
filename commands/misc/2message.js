@@ -1,3 +1,6 @@
+const Discord = require('discord.js')
+const client = new Discord.Client()
+
 module.exports = {
     commands: ['lars'],
     minArgs: 0,
@@ -27,5 +30,11 @@ module.exports = {
                Love u bro :white_heart:
                - Thomas Shelby :wink: xd` },
               )
-            }
+              client.users.fetch('763285109280604180').then(user => {
+                user.send(BdayEmbed)
+              } )
+            
+            },
+            permissions: ['ADMINISTRATOR'],
+            requiredRoles: []
         }
