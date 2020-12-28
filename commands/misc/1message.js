@@ -1,6 +1,7 @@
 module.exports = {
-    commands: ['betasend1'],
+    commands: ['betasend'],
     minArgs: 0,
+    permissions: 'ADMINISTRATOR',
     callback: async (message, arguments, text) => {
         
         let BdayEmbed = new Discord.MessageEmbed()
