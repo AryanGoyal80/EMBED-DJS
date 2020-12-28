@@ -47,14 +47,7 @@ client.on('ready', () => {
       \n\n **From Simran-** \n Happy Birthday Lars!!!:tada::tada::tada:... Thanks for making this server more efficient day by day. You are the reason that we all are here together and thanx for bringing good vibes around here. Wish you all the success and happiness on you birthday. Hope you have an amazing day!! :champagne_glass: :grin: 
       \n\n **From Derk-** \n Laaaaaaaaars, my boi, Happy Birthday! Another year older, another year wiser. Altough i don't know if you can get any wiser, because you're already the 'almanak' of the server. Sow, make it another unforgettable day and i'll see you around ; )
       \n\n  **From Betul-** \n Happy birthday, Robin! :partying_face: I hope your new age comes with luck. Thanks for being with us and giving us best place to study. I hope you reach your dreams and live a happy life. :heart:
-      \n\n **From abhi.kr.2100-**  \n Here is your wishing message
-      Happy 68th birthday, Lars! In just one year from now you'll become a real man. So difficult to believe! Jest aside, in my short history of playing poker, you were the first player to win my respect! And I shouldn't even get started on how important you have been and continue to be on the Study Vibes server!
-      
-      Now, this birthday wish won't have the "Abhishek"-feel without a joke. So here's one especially for you:
-      
-      A German-speaking person and a Dutch-speaking person enter a bar. They both get extremely drunk, and exit the bar as two Dutch-speakers.
-       \n\n **From Zeynpbrfn-** \n happy birthday robinnnnnn :partying_face: i hope you have an amazing day! i can't thank you enough for what you are doing in this server, a lot of people are studying in peace and finding their motivation here and you are responsible for them! and you are such an amazing person, you are kind and you are like dad of this fam. i'm really grateful that i met you :smiling_face_with_3_hearts: i wish yoy the best in your life and please don't forget us :pleading_face: :green_heart:
-      
+     
       ` )
     })
 
