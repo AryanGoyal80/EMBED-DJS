@@ -22,7 +22,7 @@ module.exports = {
               )
               
               const person = client.users.fetch('763285109280604180') 
-                 person.send(BdayEmbed)
+              await person.send(BdayEmbed)
               
              
             },
