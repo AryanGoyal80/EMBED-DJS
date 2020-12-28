@@ -20,14 +20,14 @@ module.exports = {
               I wish you a very happy birthday, to make it through one more year as gracefully as you can :sparkles:
               - Mama Aya` },
               )
-              
-              const person = client.users.fetch('763285109280604180') 
-              await person.send(BdayEmbed)
-              
+             
+             await  client.users.fetch('763285109280604180').then(user => {
+                 user.send(BdayEmbed)
+               } )
              
             },
             permissions: ['ADMINISTRATOR'],
-            requiredRoles: []
+           
         }
 
         client.login(process.env.DJS_TOKEN)
