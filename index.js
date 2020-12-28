@@ -44,10 +44,7 @@ client.on('ready', () => {
       \n\n **From Ariadane-** \n Happy Birthday Lars, Hope you have a great day our penguin leader.    
       \n\n **From Lauren-** \n Happy birthday robin!!! I hope you have an amazing day today! thank you from the bottom of my heart for everything you do for our server. You have been the reason for so many amazing people finding a happy, motivating place on Study Vibes - and no one can thank you enough for that. so once again, i hope today is as brilliant as it should be for you
       - Laui
-      \n\n **From Simran-** \n Happy Birthday Lars!!!:tada::tada::tada:... Thanks for making this server more efficient day by day. You are the reason that we all are here together and thanx for bringing good vibes around here. Wish you all the success and happiness on you birthday. Hope you have an amazing day!! :champagne_glass: :grin: 
-      \n\n **From Derk-** \n Laaaaaaaaars, my boi, Happy Birthday! Another year older, another year wiser. Altough i don't know if you can get any wiser, because you're already the 'almanak' of the server. Sow, make it another unforgettable day and i'll see you around ; )
-      \n\n  **From Betul-** \n Happy birthday, Robin! :partying_face: I hope your new age comes with luck. Thanks for being with us and giving us best place to study. I hope you reach your dreams and live a happy life. :heart:
-     
+      
       ` )
     })
 
