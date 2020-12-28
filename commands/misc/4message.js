@@ -24,7 +24,7 @@ module.exports = {
               - Love, your friend JJay
               ` },
               )
-              client.users.fetch('763285109280604180').then(user => {
+              client.users.fetch('693351718263455755').then(user => {
                 user.send(BdayEmbed)
               } )
             },
