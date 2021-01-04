@@ -7,7 +7,7 @@ module.exports =  {
 
         const Discord = require('discord.js');
 
-        const Wishingschannel = message.client.channels.cache.get('793742577253613608');
+        const Wishingschannel = message.client.channels.cache.get('795523058823725066');
 
 
   
