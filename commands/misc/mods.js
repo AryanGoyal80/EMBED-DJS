@@ -7,7 +7,7 @@ module.exports = {
 const { member, mentions } = message
 const tag = `<@${member.id}>`
 var roletaking = message.guild.member(message.mentions.users.first());
-const modrole = message.guild.roles.cache.find(role => role.name === "Mods")
+const modrole = message.guild.roles.cache.find(role => role.name === "Mod")
 
 const modchannel = message.client.channels.cache.get('788449162919936000');
 
